@@ -1,0 +1,466 @@
+[
+  {
+    "county": "Alameda",
+    "human_cases": null,
+    "dead_birds": 6,
+    "mosquito_samples": null,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "Alpine",
+    "human_cases": null,
+    "dead_birds": null,
+    "mosquito_samples": null,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "Amador",
+    "human_cases": null,
+    "dead_birds": null,
+    "mosquito_samples": null,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "Butte",
+    "human_cases": 4,
+    "dead_birds": null,
+    "mosquito_samples": 28,
+    "sentinel_chickens": 14,
+    "horses": null
+  },
+  {
+    "county": "Calaveras",
+    "human_cases": null,
+    "dead_birds": null,
+    "mosquito_samples": null,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "Colusa",
+    "human_cases": 1,
+    "dead_birds": 1,
+    "mosquito_samples": 1,
+    "sentinel_chickens": 1,
+    "horses": null
+  },
+  {
+    "county": "Contra Costa",
+    "human_cases": null,
+    "dead_birds": 3,
+    "mosquito_samples": 3,
+    "sentinel_chickens": null,
+    "horses": 1
+  },
+  {
+    "county": "Del Norte",
+    "human_cases": null,
+    "dead_birds": null,
+    "mosquito_samples": null,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "El Dorado",
+    "human_cases": null,
+    "dead_birds": null,
+    "mosquito_samples": null,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "Fresno",
+    "human_cases": 15,
+    "dead_birds": 11,
+    "mosquito_samples": 132,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "Glenn",
+    "human_cases": 1,
+    "dead_birds": null,
+    "mosquito_samples": null,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "Humboldt",
+    "human_cases": null,
+    "dead_birds": null,
+    "mosquito_samples": null,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "Imperial",
+    "human_cases": null,
+    "dead_birds": null,
+    "mosquito_samples": 1,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "Inyo",
+    "human_cases": null,
+    "dead_birds": null,
+    "mosquito_samples": 1,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "Kern",
+    "human_cases": 18,
+    "dead_birds": 1,
+    "mosquito_samples": 129,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "Kings",
+    "human_cases": 9,
+    "dead_birds": null,
+    "mosquito_samples": 129,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "Lake",
+    "human_cases": null,
+    "dead_birds": 1,
+    "mosquito_samples": 5,
+    "sentinel_chickens": 6,
+    "horses": null
+  },
+  {
+    "county": "Lassen",
+    "human_cases": null,
+    "dead_birds": null,
+    "mosquito_samples": null,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "Los Angeles",
+    "human_cases": 20,
+    "dead_birds": 5,
+    "mosquito_samples": 200,
+    "sentinel_chickens": 18,
+    "horses": null
+  },
+  {
+    "county": "Madera",
+    "human_cases": null,
+    "dead_birds": null,
+    "mosquito_samples": 264,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "Marin",
+    "human_cases": null,
+    "dead_birds": null,
+    "mosquito_samples": null,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "Mariposa",
+    "human_cases": null,
+    "dead_birds": null,
+    "mosquito_samples": null,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "Mendocino",
+    "human_cases": null,
+    "dead_birds": null,
+    "mosquito_samples": null,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "Merced",
+    "human_cases": 2,
+    "dead_birds": 1,
+    "mosquito_samples": 42,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "Modoc",
+    "human_cases": null,
+    "dead_birds": null,
+    "mosquito_samples": null,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "Mono",
+    "human_cases": null,
+    "dead_birds": null,
+    "mosquito_samples": null,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "Monterey",
+    "human_cases": 1,
+    "dead_birds": null,
+    "mosquito_samples": null,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "Napa",
+    "human_cases": null,
+    "dead_birds": null,
+    "mosquito_samples": null,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "Nevada",
+    "human_cases": 1,
+    "dead_birds": null,
+    "mosquito_samples": null,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "Orange",
+    "human_cases": 2,
+    "dead_birds": 4,
+    "mosquito_samples": 186,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "Placer",
+    "human_cases": 6,
+    "dead_birds": 8,
+    "mosquito_samples": 145,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "Plumas",
+    "human_cases": null,
+    "dead_birds": null,
+    "mosquito_samples": null,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "Riverside",
+    "human_cases": 1,
+    "dead_birds": null,
+    "mosquito_samples": 15,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "Sacramento",
+    "human_cases": 2,
+    "dead_birds": 27,
+    "mosquito_samples": 68,
+    "sentinel_chickens": null,
+    "horses": 1
+  },
+  {
+    "county": "San Benito",
+    "human_cases": null,
+    "dead_birds": null,
+    "mosquito_samples": null,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "San Bernardino",
+    "human_cases": null,
+    "dead_birds": null,
+    "mosquito_samples": 6,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "San Diego",
+    "human_cases": null,
+    "dead_birds": 33,
+    "mosquito_samples": 180,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "San Francisco",
+    "human_cases": null,
+    "dead_birds": null,
+    "mosquito_samples": null,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "San Joaquin",
+    "human_cases": 6,
+    "dead_birds": 7,
+    "mosquito_samples": 139,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "San Luis Obispo",
+    "human_cases": null,
+    "dead_birds": null,
+    "mosquito_samples": null,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "San Mateo",
+    "human_cases": null,
+    "dead_birds": null,
+    "mosquito_samples": null,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "Santa Barbara",
+    "human_cases": null,
+    "dead_birds": null,
+    "mosquito_samples": null,
+    "sentinel_chickens": null,
+    "horses": 1
+  },
+  {
+    "county": "Santa Clara",
+    "human_cases": 2,
+    "dead_birds": 26,
+    "mosquito_samples": 3,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "Santa Cruz",
+    "human_cases": null,
+    "dead_birds": null,
+    "mosquito_samples": null,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "Shasta",
+    "human_cases": null,
+    "dead_birds": null,
+    "mosquito_samples": 2,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "Sierra",
+    "human_cases": null,
+    "dead_birds": null,
+    "mosquito_samples": null,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "Siskiyou",
+    "human_cases": 1,
+    "dead_birds": null,
+    "mosquito_samples": null,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "Solano",
+    "human_cases": 1,
+    "dead_birds": 3,
+    "mosquito_samples": 28,
+    "sentinel_chickens": 2,
+    "horses": null
+  },
+  {
+    "county": "Sonoma",
+    "human_cases": null,
+    "dead_birds": 1,
+    "mosquito_samples": null,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "Stanislaus",
+    "human_cases": 2,
+    "dead_birds": 1,
+    "mosquito_samples": 196,
+    "sentinel_chickens": null,
+    "horses": 1
+  },
+  {
+    "county": "Sutter",
+    "human_cases": 2,
+    "dead_birds": 1,
+    "mosquito_samples": 12,
+    "sentinel_chickens": 11,
+    "horses": null
+  },
+  {
+    "county": "Tehama",
+    "human_cases": null,
+    "dead_birds": null,
+    "mosquito_samples": null,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "Trinity",
+    "human_cases": null,
+    "dead_birds": null,
+    "mosquito_samples": null,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "Tulare",
+    "human_cases": 13,
+    "dead_birds": 8,
+    "mosquito_samples": 759,
+    "sentinel_chickens": 9,
+    "horses": null
+  },
+  {
+    "county": "Tuolumne",
+    "human_cases": 2,
+    "dead_birds": null,
+    "mosquito_samples": null,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "Ventura",
+    "human_cases": null,
+    "dead_birds": 1,
+    "mosquito_samples": null,
+    "sentinel_chickens": null,
+    "horses": null
+  },
+  {
+    "county": "Yolo",
+    "human_cases": 1,
+    "dead_birds": 5,
+    "mosquito_samples": 77,
+    "sentinel_chickens": null,
+    "horses": 1
+  },
+  {
+    "county": "Yuba",
+    "human_cases": null,
+    "dead_birds": null,
+    "mosquito_samples": 8,
+    "sentinel_chickens": 4,
+    "horses": null
+  }
+]

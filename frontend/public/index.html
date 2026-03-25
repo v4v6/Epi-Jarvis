@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Epi-Jarvis-Cal — Static Prototype</title>
+    <link rel="stylesheet" href="../src/styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header class="topbar">
+        <div>
+          <div class="brand">EPI-JARVIS-CAL</div>
+          <div class="mode-chip">VECTOR SEASON</div>
+        </div>
+        <nav class="region-tabs">
+          <button class="tab active">California</button>
+          <button class="tab">Bay Area</button>
+          <button class="tab">Central Valley</button>
+          <button class="tab">Southern California</button>
+          <button class="tab">Sacramento Region</button>
+        </nav>
+        <div class="status-cluster">
+          <div class="status-item"><span>Last sweep</span><strong id="last-updated">—</strong></div>
+          <div class="status-item"><span>Sources</span><strong>1 / 7 live</strong></div>
+          <div class="status-item"><span>Mode</span><strong>Static prototype</strong></div>
+          <div class="status-pill elevated">Vector watch</div>
+        </div>
+      </header>
+
+      <main class="layout">
+        <aside class="left-rail panel">
+          <h2>Sensor grid</h2>
+          <div class="sensor-list">
+            <button class="sensor active">
+              <span class="dot active"></span>
+              <span class="sensor-name">Vector surveillance</span>
+              <span class="sensor-meta" id="active-county-count">— counties active</span>
+            </button>
+            <button class="sensor disabled"><span class="dot"></span><span class="sensor-name">Wastewater</span><span class="sensor-meta">planned</span></button>
+            <button class="sensor disabled"><span class="dot"></span><span class="sensor-name">Respiratory ED</span><span class="sensor-meta">planned</span></button>
+            <button class="sensor disabled"><span class="dot"></span><span class="sensor-name">Hospital pressure</span><span class="sensor-meta">planned</span></button>
+            <button class="sensor disabled"><span class="dot"></span><span class="sensor-name">County advisories</span><span class="sensor-meta">planned</span></button>
+          </div>
+
+          <section class="panel-subsection">
+            <h3>Statewide West Nile summary</h3>
+            <div class="metric-grid" id="summary-grid"></div>
+          </section>
+        </aside>
+
+        <section class="center panel">
+          <div class="panel-head">
+            <div>
+              <h2>California county surveillance layer</h2>
+              <p>Prototype choropleth-like map driven by the live West Nile county feed.</p>
+            </div>
+            <div class="panel-head-right">
+              <div class="layer-controls" id="layer-controls" aria-label="Metric layer controls">
+                <button class="layer-chip active" data-layer="composite">Composite</button>
+                <button class="layer-chip" data-layer="human_cases">Human cases</button>
+                <button class="layer-chip" data-layer="mosquito_samples">Mosquitoes</button>
+                <button class="layer-chip" data-layer="dead_birds">Dead birds</button>
+                <button class="layer-chip" data-layer="sentinel_chickens">Sentinel chickens</button>
+                <button class="layer-chip" data-layer="horses">Horses</button>
+              </div>
+              <div class="legend" id="map-legend">
+                <span><i class="swatch level-0"></i> none</span>
+                <span><i class="swatch level-1"></i> low</span>
+                <span><i class="swatch level-2"></i> moderate</span>
+                <span><i class="swatch level-3"></i> high</span>
+                <span><i class="swatch level-4"></i> severe</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="map-shell">
+            <svg id="county-map" class="county-map" viewBox="0 0 900 700" aria-label="California county map"></svg>
+          </div>
+        </section>
+
+        <aside class="right-rail panel">
+          <section>
+            <h2>Selected county</h2>
+            <div id="county-detail" class="county-detail">
+              <div class="detail-name">Select a county</div>
+              <p class="detail-copy">Click any county tile to inspect the current West Nile surveillance counts.</p>
+            </div>
+          </section>
+
+          <section class="panel-subsection">
+            <h3>Interpretation</h3>
+            <ul class="insight-list" id="insight-list">
+              <li>Initial live layer uses West Nile only.</li>
+              <li>Counts reflect current site extraction, not adjudicated risk.</li>
+              <li>Additional layers will improve signal concordance.</li>
+            </ul>
+          </section>
+
+          <section class="panel-subsection">
+            <h3>Top counties by composite vector score</h3>
+            <ol id="top-counties" class="top-list"></ol>
+          </section>
+        </aside>
+      </main>
+    </div>
+
+    <script type="module" src="../src/app.js"></script>
+  </body>
+</html>

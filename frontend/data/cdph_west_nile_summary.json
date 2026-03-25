@@ -1,0 +1,18 @@
+{
+  "source_id": "cdph_west_nile",
+  "source_name": "California West Nile Virus Website",
+  "fetched_at": "2026-03-18T04:50:47.164569+00:00",
+  "source_url": "https://westnile.ca.gov/",
+  "season_label": "2025",
+  "last_updated_text": "Feb 02, 2026 5:23pm PT",
+  "human_cases": 113,
+  "dead_birds": 154,
+  "mosquito_samples": 2759,
+  "sentinel_chickens": 65,
+  "horses": 5,
+  "human_case_counties": 23,
+  "dead_bird_counties": 21,
+  "mosquito_sample_counties": 27,
+  "sentinel_chicken_counties": 8,
+  "horse_counties": 5
+}
